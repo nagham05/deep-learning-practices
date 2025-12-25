@@ -1,7 +1,3 @@
-This is a more detailed `README.md` for your repository, incorporating specific results, model architectures, and training outputs found within the notebooks.
-
----
-
 # TensorFlow Deep Learning Collection
 
 A comprehensive suite of Jupyter notebooks documenting the journey from basic tensor operations to building high-performance Convolutional Neural Networks (CNNs). This repository serves as both a learning resource and a performance benchmark for standard computer vision datasets.
@@ -43,7 +39,7 @@ This notebook establishes the mathematical foundations of deep learning using th
 
 
 * **Results:**
-* **Calculation Output:** A sample operation with  correctly yields a result of `25.0`.
+  * **Calculation Output:** A sample operation with  correctly yields a result of `25.0`.
 
 
 
@@ -60,8 +56,8 @@ A hands-on guide to classifying 70,000 grayscale images of clothing items into 1
 
 * **Preprocessing:** Pixel values are normalized from the range `[0, 255]` to `[0, 1]` to improve convergence speed.
 * **Key Results:**
-* **Prediction:** The model successfully predicts an "Ankle Boot" (Label 9) from the test set.
-* **Environment:** Runs on TensorFlow version `2.20.0`.
+  * **Prediction:** The model successfully predicts an "Ankle Boot" (Label 9) from the test set.
+  * **Environment:** Runs on TensorFlow version `2.20.0`.
 
 
 
@@ -78,9 +74,9 @@ This notebook transitions from simple dense networks to **Convolutional Neural N
 
 
 * **Training Performance:**
-* The model achieves a high validation accuracy, reaching approximately **99.35%** on the training set in the final recorded cells.
-* **Visualization:** Includes plotting for training vs. validation accuracy to detect overfitting.
-
+  * The model achieves a high validation accuracy, reaching approximately **99.35%** on the training set in the final recorded cells.
+  * **Visualization:** Includes plotting for training vs. validation accuracy to detect overfitting.
+  
 
 
 ---
